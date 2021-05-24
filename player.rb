@@ -13,6 +13,6 @@ class Player
 
   # check if player has no lives left
   def game_over?
-    @score == 0
+    @score === 0
   end
 end
